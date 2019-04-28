@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './Pokecard.css';
 
-// const POKE_API =
-//   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
-
 const POKE_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/';
 
 // This function allows working with this API. Ids must be three digits, so any pokemon with an id < 100 will have to have zeroes added to the start of the id to make it three digits.
